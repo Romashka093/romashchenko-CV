@@ -1,0 +1,7 @@
+@value mobile: (min-width: 375px);
+@value tablet: (min-width: 768px);
+@value turn-tablet: (min-width: 1024px);
+@value small-laptop: (min-width: 1280px);
+@value laptop: (min-width: 1366px);
+@value desktop: (min-width: 1600px);
+@value large-desktop: (min-width: 1920px);
