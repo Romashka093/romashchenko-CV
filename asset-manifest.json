@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/romashchenko-cv/static/css/main.84c7bda2.chunk.css",
+    "main.js": "/romashchenko-cv/static/js/main.3203c3fe.chunk.js",
+    "main.js.map": "/romashchenko-cv/static/js/main.3203c3fe.chunk.js.map",
+    "runtime-main.js": "/romashchenko-cv/static/js/runtime-main.83f62b46.js",
+    "runtime-main.js.map": "/romashchenko-cv/static/js/runtime-main.83f62b46.js.map",
+    "static/js/2.13e4c370.chunk.js": "/romashchenko-cv/static/js/2.13e4c370.chunk.js",
+    "static/js/2.13e4c370.chunk.js.map": "/romashchenko-cv/static/js/2.13e4c370.chunk.js.map",
+    "static/js/3.0da621f2.chunk.js": "/romashchenko-cv/static/js/3.0da621f2.chunk.js",
+    "static/js/3.0da621f2.chunk.js.map": "/romashchenko-cv/static/js/3.0da621f2.chunk.js.map",
+    "index.html": "/romashchenko-cv/index.html",
+    "static/css/main.84c7bda2.chunk.css.map": "/romashchenko-cv/static/css/main.84c7bda2.chunk.css.map",
+    "static/js/2.13e4c370.chunk.js.LICENSE.txt": "/romashchenko-cv/static/js/2.13e4c370.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/romashchenko-cv/static/media/roboto-condensed-v19-latin-regular.fd55075a.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83f62b46.js",
+    "static/js/2.13e4c370.chunk.js",
+    "static/css/main.84c7bda2.chunk.css",
+    "static/js/main.3203c3fe.chunk.js"
+  ]
+}
