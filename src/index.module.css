@@ -1,0 +1,137 @@
+@value fonts: './helpers/variables/fonts.module.css';
+@value colors: './helpers/variables/colors.module.css';
+@value breakpoints: './helpers/variables/breakpoints.module.css';
+@value regular from fonts;
+@value bgColor from colors;
+@value mobile from breakpoints;
+@value tablet from breakpoints;
+@value turn-tablet from breakpoints;
+@value small-laptop from breakpoints;
+@value laptop from breakpoints;
+@value desktop from breakpoints;
+@value large-desktop from breakpoints;
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* background-color: bgColor;
+    background-image: url(../src/assets/img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%; */
+}
+
+body {
+    font-family: regular;
+    font-style: normal;
+    width: 280px;
+    margin: 0 auto;
+    background-color: bgColor;
+    background: url(../src/assets/img/bg.png) no-repeat center center fixed;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+​img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: #10375d;
+}
+
+p {
+    margin: 0;
+    color: #05647a;
+}
+
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input:focus,
+button:focus,
+select:focus,
+a:focus {
+    outline: none;
+}
+
+input:active,
+button:active,
+select:active,
+a:active {
+    outline: none;
+}
+
+@media mobile {
+    body {
+        width: 360px;
+    }
+}
+
+@media tablet {
+    body {
+        width: 680px;
+    }
+}
+
+@media turn-tablet {
+    body {
+        width: 940px;
+    }
+}
+
+@media small-laptop {
+    body {
+        width: 1040px;
+    }
+}
+
+@media laptop {
+    body {
+        width: 1200px;
+    }
+}
+
+@media desktop {
+    body {
+        width: 1400px;
+    }
+}
+
+@media large-desktop {
+    body {
+        width: 1740px;
+    }
+}

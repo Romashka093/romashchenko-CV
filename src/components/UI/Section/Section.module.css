@@ -1,0 +1,22 @@
+.sectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 12px 0 0 0;
+}
+
+.sectionHeading {
+    width: 100%;
+}
+
+.sectionPhoto {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+.sectionDescription {
+    padding: 0 0 12px 0;
+}

@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './assets/styles/fonts.css';
 import './assets/styles/normalize.css';
+import './index.module.css';
 
 ReactDOM.render(
   <BrowserRouter>

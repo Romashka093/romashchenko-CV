@@ -11,7 +11,7 @@ export default function MobileNav({ isOpenMenu, handleOpenMenu }) {
           className={isOpenMenu ? css.navBurgerBarClose : css.navBurgerBar}
         ></span>
       </div>
-      {isOpenMenu && <NavList />}
+      {isOpenMenu && <NavList handleOpenMenu={handleOpenMenu} />}
     </>
   );
 }

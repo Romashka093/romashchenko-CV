@@ -1,0 +1,31 @@
+.skillsSection {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 12px 0 0 0; */
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.skillsSectionHeading {
+    margin: 12px auto 0;
+    text-align: center;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    margin: 12px 0 0 0;
+}
+
+.skillItem {
+    padding: 12px;
+    text-align: center;
+}
+
+.skillItemIcon {
+    width: 56px;
+    margin: 0 0 12px 0;
+}

@@ -4,11 +4,11 @@ import { NavLink } from 'react-router-dom';
 import routes from '../../../routes';
 import css from './NavList.module.css';
 
-function NavList() {
+function NavList({ handleOpenMenu }) {
   return (
     <div className={css.navContainer}>
       <ul className={css.navList}>
-        <li className={css.navItem}>
+        <li className={css.navItem} onClick={handleOpenMenu}>
           <NavLink
             exact
             to={routes.main}
@@ -18,7 +18,7 @@ function NavList() {
             {lang.eng.about}
           </NavLink>
         </li>
-        <li className={css.navItem}>
+        <li className={css.navItem} onClick={handleOpenMenu}>
           <NavLink
             to={routes.experience}
             className={css.navLink}
@@ -27,7 +27,7 @@ function NavList() {
             {lang.eng.experience}
           </NavLink>
         </li>
-        <li className={css.navItem}>
+        <li className={css.navItem} onClick={handleOpenMenu}>
           <NavLink
             to={routes.contacts}
             className={css.navLink}
