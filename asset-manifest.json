@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/romashchenko-cv/static/css/main.65ccd84d.chunk.css",
-    "main.js": "/romashchenko-cv/static/js/main.d9a9dbca.chunk.js",
-    "main.js.map": "/romashchenko-cv/static/js/main.d9a9dbca.chunk.js.map",
-    "runtime-main.js": "/romashchenko-cv/static/js/runtime-main.f1502bd1.js",
-    "runtime-main.js.map": "/romashchenko-cv/static/js/runtime-main.f1502bd1.js.map",
-    "static/js/2.ca26161e.chunk.js": "/romashchenko-cv/static/js/2.ca26161e.chunk.js",
-    "static/js/2.ca26161e.chunk.js.map": "/romashchenko-cv/static/js/2.ca26161e.chunk.js.map",
-    "static/js/3.1e159278.chunk.js": "/romashchenko-cv/static/js/3.1e159278.chunk.js",
-    "static/js/3.1e159278.chunk.js.map": "/romashchenko-cv/static/js/3.1e159278.chunk.js.map",
+    "main.css": "/romashchenko-cv/static/css/main.eb713f51.chunk.css",
+    "main.js": "/romashchenko-cv/static/js/main.bc7cc298.chunk.js",
+    "main.js.map": "/romashchenko-cv/static/js/main.bc7cc298.chunk.js.map",
+    "runtime-main.js": "/romashchenko-cv/static/js/runtime-main.18105fb2.js",
+    "runtime-main.js.map": "/romashchenko-cv/static/js/runtime-main.18105fb2.js.map",
+    "static/js/2.ff6153f7.chunk.js": "/romashchenko-cv/static/js/2.ff6153f7.chunk.js",
+    "static/js/2.ff6153f7.chunk.js.map": "/romashchenko-cv/static/js/2.ff6153f7.chunk.js.map",
+    "static/js/3.f224ac19.chunk.js": "/romashchenko-cv/static/js/3.f224ac19.chunk.js",
+    "static/js/3.f224ac19.chunk.js.map": "/romashchenko-cv/static/js/3.f224ac19.chunk.js.map",
     "index.html": "/romashchenko-cv/index.html",
-    "static/css/main.65ccd84d.chunk.css.map": "/romashchenko-cv/static/css/main.65ccd84d.chunk.css.map",
-    "static/js/2.ca26161e.chunk.js.LICENSE.txt": "/romashchenko-cv/static/js/2.ca26161e.chunk.js.LICENSE.txt",
+    "static/css/main.eb713f51.chunk.css.map": "/romashchenko-cv/static/css/main.eb713f51.chunk.css.map",
+    "static/js/2.ff6153f7.chunk.js.LICENSE.txt": "/romashchenko-cv/static/js/2.ff6153f7.chunk.js.LICENSE.txt",
     "static/media/Adobe_Photoshop.svg": "/romashchenko-cv/static/media/Adobe_Photoshop.21b3c1e0.svg",
     "static/media/Visual_Studio_Code.svg": "/romashchenko-cv/static/media/Visual_Studio_Code.a4b8e5c0.svg",
     "static/media/bem.svg": "/romashchenko-cv/static/media/bem.36e9d941.svg",
@@ -27,6 +27,7 @@
     "static/media/javascript.svg": "/romashchenko-cv/static/media/javascript.00f3e5cf.svg",
     "static/media/linkedin.svg": "/romashchenko-cv/static/media/linkedin.2344671b.svg",
     "static/media/me.536c6f57.jpg": "/romashchenko-cv/static/media/me.536c6f57.jpg",
+    "static/media/movie_gallery.png": "/romashchenko-cv/static/media/movie_gallery.4075211c.png",
     "static/media/react.svg": "/romashchenko-cv/static/media/react.e68b35f4.svg",
     "static/media/fonts.css": "/romashchenko-cv/static/media/roboto-condensed-v19-latin-regular.fd55075a.woff2",
     "static/media/sass.svg": "/romashchenko-cv/static/media/sass.8aa78a83.svg",
@@ -35,9 +36,9 @@
     "static/media/webPack.svg": "/romashchenko-cv/static/media/webPack.23fc1d3a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f1502bd1.js",
-    "static/js/2.ca26161e.chunk.js",
-    "static/css/main.65ccd84d.chunk.css",
-    "static/js/main.d9a9dbca.chunk.js"
+    "static/js/runtime-main.18105fb2.js",
+    "static/js/2.ff6153f7.chunk.js",
+    "static/css/main.eb713f51.chunk.css",
+    "static/js/main.bc7cc298.chunk.js"
   ]
 }
