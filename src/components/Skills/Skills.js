@@ -1,14 +1,13 @@
 import React from 'react';
-import { skills } from '../../helpers/data/skills';
-import { tools } from '../../helpers/data/skills';
+import languages from '../../lang';
+import { skills, tools } from '../../helpers/data/skills';
 import css from './Skills.module.css';
-console.log(tools);
 
 export default function Skills() {
   return (
     <>
       <section className={css.skillsSection}>
-        <h2 className={css.skillsSectionHeading}>Skills</h2>
+        <h2 className={css.skillsSectionHeading}>{languages.eng.skills}</h2>
         <ul className={css.skillsContainer}>
           {skills.map(skill => (
             <li className={css.skillItem} key={skill.id} title={skill.name}>

@@ -1,0 +1,61 @@
+.sectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 12px 0 0 0;
+}
+
+.sectionHeading {
+    width: 100%;
+}
+
+.projectsList {
+    /*  */
+}
+
+.projectsHeading {
+    /*  */
+}
+
+.projectItem {
+    /*  */
+}
+
+.projectLink {
+    /*  */
+}
+
+.projectCover {
+    width: 280px;
+    border-radius: 4px;
+}
+
+.projectDescription {
+    /*  */
+}
+
+.projectName {
+    /*  */
+}
+
+.projectAbout {
+    /*  */
+}
+
+.projectTechs {
+    /*  */
+}
+
+.projectTechsHeading {
+    /*  */
+}
+
+.projectTechItem {
+    /*  */
+}
+
+.projectRepository {
+    /*  */
+}
