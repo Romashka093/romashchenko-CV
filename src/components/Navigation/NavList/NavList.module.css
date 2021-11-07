@@ -9,7 +9,7 @@
     top: 0;
     width: 100%;
     z-index: 20;
-    animation: background linear 2s;
+    animation: background linear 1223ms;
 }
 
 .navList {
@@ -26,8 +26,8 @@
     0% {
         height: 0%;
     }
-    50% {
-        height: 50%;
+    25% {
+        height: 40%;
     }
     100% {
         height: 100%;

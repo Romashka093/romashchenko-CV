@@ -11,30 +11,25 @@
 @value desktop from breakpoints;
 @value large-desktop from breakpoints;
 html,
-body {
-    /* height: 100%; */
-}
+body {}
 
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    /* background-color: bgColor;
-    background-image: url(../src/assets/img/bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100%; */
 }
 
 body {
     font-family: regular;
     font-style: normal;
     width: 280px;
-    /* height: auto; */
     margin: 0 auto;
     background-color: bgColor;
     background: url(../src/assets/img/bg.png) no-repeat center center fixed;
     background-size: cover;
+}
+
+#root {
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -80,9 +75,6 @@ a {
     display: block;
     text-decoration: none;
     outline: none;
-    /* height: auto;
-    width: auto;
-    cursor: pointer; */
 }
 
 button:hover {

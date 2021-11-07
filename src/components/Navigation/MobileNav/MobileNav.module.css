@@ -13,7 +13,7 @@
     background-color: initial;
     outline: none;
     cursor: pointer;
-    /* transition: 1s; */
+    /* transition: 423ms; */
 }
 
 .navBurgerBar {
@@ -25,7 +25,7 @@
     top: 18px;
     left: 12px;
     cursor: pointer;
-    transition: 1s;
+    transition: 423ms;
 }
 
 .navBurgerBar::after,
@@ -36,17 +36,17 @@
     width: 16px;
     background-color: #10375d;
     border-radius: 5px;
-    transition: 1s;
+    transition: 423ms;
 }
 
 .navBurgerBar::after {
     top: 4px;
-    /* transition: 1s; */
+    /* transition: 423ms; */
 }
 
 .navBurgerBar::before {
     top: -4px;
-    /* transition: 1s; */
+    /* transition: 423ms; */
 }
 
 .navBurgerBarClose {
@@ -63,15 +63,15 @@
     width: 16px;
     background-color: #10375d;
     border-radius: 5px;
-    transition: 1s;
+    transition: 423ms;
 }
 
 .navBurgerBarClose::after {
     transform: rotate(45deg);
-    transition: 1s;
+    transition: 423ms;
 }
 
 .navBurgerBarClose::before {
     transform: rotate(-45deg);
-    transition: 1s;
+    transition: 423ms;
 }

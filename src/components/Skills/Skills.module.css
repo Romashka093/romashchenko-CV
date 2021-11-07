@@ -1,14 +1,10 @@
 .skillsSection {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 12px 0 0 0; */
-    /* align-items: center; */
-    /* text-align: center; */
+    margin: 0 0 66px 0;
 }
 
 .skillsSectionHeading {
-    margin: 12px auto 0;
+    /* margin: 12px auto 0; */
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -17,7 +13,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
-    margin: 12px 0 0 0;
+    margin: 0 auto;
+    /* margin: 12px 0 0 0; */
 }
 
 .skillItem {
