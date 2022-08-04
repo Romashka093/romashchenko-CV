@@ -2,7 +2,7 @@ import React from 'react';
 import NavList from '../NavList/NavList';
 import css from './MobileNav.module.css';
 
-export default function MobileNav({ isOpenMenu, handleOpenMenu }) {
+const MobileNav = ({ isOpenMenu, handleOpenMenu }) => {
   return (
     <>
       <div onClick={handleOpenMenu} className={css.navBurger}>
@@ -14,4 +14,6 @@ export default function MobileNav({ isOpenMenu, handleOpenMenu }) {
       {isOpenMenu && <NavList handleOpenMenu={handleOpenMenu} />}
     </>
   );
-}
+};
+
+export default MobileNav;

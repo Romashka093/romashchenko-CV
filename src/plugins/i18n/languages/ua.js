@@ -1,13 +1,13 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   //  navigation
-  about: 'about',
-  experience: 'My experience',
-  contacts: 'contacts',
+  about: 'Про мене',
+  experience: 'Мій досвід',
+  contacts: 'Контакти',
 
   // about
   position: 'front-end developer',
-  hello: 'Hello, world!',
+  hello: 'Привіт, світ!',
   whoIAm: "My name is Anna and I'm a Front-End Developer",
   myDream: 'I’m looking for',
   target:
@@ -26,4 +26,7 @@ export default {
   // experience
   commercial: 'Commercial project',
   own: 'Own projects',
+
+  //
+  loading: 'завантаження',
 };

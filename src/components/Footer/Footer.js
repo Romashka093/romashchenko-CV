@@ -2,7 +2,7 @@ import React from 'react';
 import { contactLinks } from '../../helpers/data/contacts';
 import css from './Footer.module.css';
 
-export default function Footer() {
+const Footer = () => {
   return (
     <>
       <footer className={css.footer}>
@@ -28,4 +28,6 @@ export default function Footer() {
       </footer>
     </>
   );
-}
+};
+
+export default Footer;

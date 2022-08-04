@@ -1,13 +1,15 @@
 import React from 'react';
-import lang from '../../lang';
+import { useTranslation } from 'react-i18next';
 // import css from './Contacts.module.css';
 
-function Contacts() {
+const Contacts = () => {
+  const { t } = useTranslation();
   return (
     <>
-      <div>{lang.eng.contacts}</div>
+      <h2>{t('contacts')}</h2>
+      <p>some text</p>
     </>
   );
-}
+};
 
 export default Contacts;

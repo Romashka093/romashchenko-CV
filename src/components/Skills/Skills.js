@@ -1,13 +1,14 @@
 import React from 'react';
-import languages from '../../lang';
-import { skills, tools } from '../../helpers/data/skills';
+import { skills, tools } from '@helpers/data/skills';
+import { useTranslation } from 'react-i18next';
 import css from './Skills.module.css';
 
-export default function Skills() {
+const Skills = () => {
+  const { t } = useTranslation();
   return (
     <>
       <section className={css.skillsSection}>
-        <h2 className={css.skillsSectionHeading}>{languages.eng.skills}</h2>
+        <h2 className={css.skillsSectionHeading}>{t('skills')}</h2>
         <ul className={css.skillsContainer}>
           {skills.map(skill => (
             <li className={css.skillItem} key={skill.id} title={skill.name}>
@@ -36,4 +37,5 @@ export default function Skills() {
       </section>
     </>
   );
-}
+};
+export default Skills;

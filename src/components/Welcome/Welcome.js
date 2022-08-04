@@ -1,19 +1,19 @@
 import React from 'react';
-import Skills from '../Skills/Skills';
-import Section from '../UI/Section/Section';
-import languages from '../../lang';
+import Section from '@components/UI/Section/Section';
+import Skills from '@components/Skills/Skills';
+import { useTranslation } from 'react-i18next';
 // import css from './Welcome.module.css';
 
-export default function Welcome() {
+const Welcome = () => {
+  const { t } = useTranslation();
+
   return (
     <>
-      <Section title={languages.eng.hello} text={languages.eng.whoIAm} />
-      <Section title={languages.eng.myDream} text={languages.eng.target} />
-      <Section
-        title={languages.eng.hobbies}
-        text={languages.eng.aboutHobbies}
-      />
+      <Section title={t('hello')} text={t('whoIAm')} />
+      <Section title={t('myDream')} text={t('target')} />
+      <Section title={t('hobbies')} text={t('aboutHobbies')} />
       <Skills />
     </>
   );
-}
+};
+export default Welcome;

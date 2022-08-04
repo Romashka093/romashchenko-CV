@@ -1,10 +1,11 @@
 import React from 'react';
-import lang from '../../../lang';
 import { NavLink } from 'react-router-dom';
-import routes from '../../../routes';
+import { useTranslation } from 'react-i18next';
 import css from './NavList.module.css';
+import routes from '@services/routes';
 
-function NavList({ handleOpenMenu }) {
+const NavList = ({ handleOpenMenu }) => {
+  const { t } = useTranslation();
   return (
     <div className={css.navContainer}>
       <ul className={css.navList}>
@@ -15,7 +16,7 @@ function NavList({ handleOpenMenu }) {
             className={css.navLink}
             activeClassName={css.activeNavLink}
           >
-            {lang.eng.about}
+            {t('about')}
           </NavLink>
         </li>
         <li className={css.navItem} onClick={handleOpenMenu}>
@@ -24,7 +25,7 @@ function NavList({ handleOpenMenu }) {
             className={css.navLink}
             activeClassName={css.activeNavLink}
           >
-            {lang.eng.experience}
+            {t('experience')}
           </NavLink>
         </li>
         <li className={css.navItem} onClick={handleOpenMenu}>
@@ -33,12 +34,12 @@ function NavList({ handleOpenMenu }) {
             className={css.navLink}
             activeClassName={css.activeNavLink}
           >
-            {lang.eng.contacts}
+            {t('contacts')}
           </NavLink>
         </li>
       </ul>
     </div>
   );
-}
+};
 
 export default NavList;

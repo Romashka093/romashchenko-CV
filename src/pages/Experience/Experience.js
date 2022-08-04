@@ -1,17 +1,20 @@
 import React from 'react';
 import { projects } from '../../helpers/data/projects';
-import lang from '../../lang';
+import { useTranslation } from 'react-i18next';
 import css from './Experience.module.css';
 
-function Experience() {
+const Experience = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <section className={css.sectionContainer}>
-        <h2 className={css.sectionHeading}>{lang.eng.experience}</h2>
+        <h2 className={css.sectionHeading}>{t('experience')}</h2>
         <ul className={css.projectsList}>
-          <h3 className={css.projectsHeading}>{lang.eng.own}</h3>
+          <h3 className={css.projectsHeading}>{t('own')}</h3>
           {projects.map(project => (
             <li className={css.projectItem} key={project.id}>
+              {/* TODO - add function to open a link with react-router-dom */}
               {/* eslint-disable-next-line */}
               <a
                 className={css.projectLink}
@@ -43,12 +46,12 @@ function Experience() {
           ))}
         </ul>
         {/* <ul className={css.experienceContent}>
-          <h3 className={css.experienceHeading}>{lang.eng.commercial}</h3>
+          <h3 className={css.experienceHeading}>{t('commercial')}</h3>
           <li className={css.experienceItem}></li>
         </ul> */}
       </section>
     </>
   );
-}
+};
 
 export default Experience;

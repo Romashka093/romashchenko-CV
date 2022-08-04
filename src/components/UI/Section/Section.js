@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './Section.module.css';
 
-export default function Section({ title, text }) {
+const Section = ({ title, text }) => {
   return (
     <>
       <section className={css.sectionContainer}>
@@ -10,4 +10,6 @@ export default function Section({ title, text }) {
       </section>
     </>
   );
-}
+};
+
+export default Section;

@@ -16,3 +16,42 @@
     height: 100%;
     flex: 1 0 auto;
 }
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: calc(100vw - 50% - 55px);
+    text-align: center;
+}
+
+.loading_one,
+.loading_two,
+.loading_three {
+    font-size: 36px;
+    opacity: 0;
+    animation: dot 1223ms infinite;
+}
+
+.loading_one {
+    animation-delay: 0ms;
+}
+
+.loading_two {
+    animation-delay: 223ms;
+}
+
+.loading_three {
+    animation-delay: 323ms;
+}
+
+@keyframes dot {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
